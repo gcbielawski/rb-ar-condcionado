@@ -1,0 +1,140 @@
+.form {
+  width: 1164px;
+  height: 100%;
+  border-radius: 0 0 1rem 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow: auto;
+}
+
+.formGroup {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.formGroup input,
+.materialInput {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+  outline: none;
+}
+
+.formGroup input:hover,
+.materialInput:hover {
+  border: 1px solid #000670;
+}
+
+.formGroup input[type="date"] {
+  width: 30%;
+}
+
+.formGroup input[type="radio"] {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.formGroup input[type="number"] {
+  width: 30%;
+}
+
+.materials {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.materials input {
+  width: 30%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.btnAddMaterial,
+.btnRemoveMaterial {
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btnAddMaterial {
+  background-color: #000670;
+  color: #fff;
+}
+
+.btnAddMaterial:hover {
+  background-color: #c3e6cb;
+  color: #0c3c24;
+  transform: scale(1.03);
+  box-shadow: 0 2px 6px rgba(21, 87, 36, 0.2);
+}
+
+.btnRemoveMaterial {
+  margin-left: 1rem;
+  width: 10%;
+  background-color: #df4f4f;
+  color: #fff;
+}
+
+.btnRemoveMaterial:hover {
+  background-color: #e09292;
+  color: #000;
+  transform: scale(1.03);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btnAddMaterial:hover {
+  transform: scale(1.03);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btnForm {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+
+.btnForm button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btnCancel {
+  background-color: #df4f4f;
+  color: #fff;
+}
+
+.btnCancel:hover {
+  background-color: #e09292;
+  color: #000;
+  transform: scale(1.03);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btnSave {
+  background-color: #000670;
+  color: #fff;
+}
+
+.btnSave:hover {
+  background-color: #c3e6cb;
+  color: #0c3c24;
+  transform: scale(1.03);
+  box-shadow: 0 2px 6px rgba(21, 87, 36, 0.2);
+}

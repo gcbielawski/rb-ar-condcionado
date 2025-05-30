@@ -1,0 +1,28 @@
+.container {
+  background-color: #d9d9d9;
+  flex: 1;
+}
+
+.quotes {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  height: 870px;
+  width: 1164px;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  margin: 1rem auto;
+}
+
+.title {
+  background-color: #d6370f;
+  text-align: center;
+  width: 1164px;
+  padding: 1rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.title h2 {
+  color: #fff;
+}

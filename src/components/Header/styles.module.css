@@ -1,0 +1,32 @@
+.header {
+  background-color: #000670;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 0.5rem 2rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.header h1 {
+  color: #fff;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.header nav ul li {
+  list-style: none;
+}
+
+.header nav ul li a:hover {
+  color: #bebaba;
+}
